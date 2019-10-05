@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Mycroft-alternative
+Label: Mycroft-alternative
+Codename: jessie
+Date: Sat, 05 Oct 2019 15:07:24 UTC
+Architectures: armhf
+Components: main
+Description: Alternative repo for mycroft-core
+MD5Sum:
+ 1e05c9b9cf0622bbe6f55a52429b090e 3633 main/binary-armhf/Packages
+ 0db687e06072d3d03176bae469822a1c 1643 main/binary-armhf/Packages.gz
+ 2c7ce8213915b28f952a09a1a9c6a8db 138 main/binary-armhf/Release
+SHA1:
+ 576c0abc233685cd26fe40ffff3616bd911c8c41 3633 main/binary-armhf/Packages
+ 083023b064c393e544c41bb7ed706644e0a6ecc3 1643 main/binary-armhf/Packages.gz
+ 617165369f3a79ffd74c813c26e1f32c222c2247 138 main/binary-armhf/Release
+SHA256:
+ 4762b4b7e039629d918713d9ea5577af7990a1ad193ac34360ddb4ababeb10d6 3633 main/binary-armhf/Packages
+ a421f97b4ada4f3fa3d1e859e1a1b0a17584b169b38971dce442b0af4794ed42 1643 main/binary-armhf/Packages.gz
+ 541964bed75e626eb5a376a8f741c7899f51327ecbf0d0085ecfcb986c7acf5d 138 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEGASpQwQFCcrGSLycggXWlAQrlX0FAl2YsbAACgkQggXWlAQr
+lX0fLQwAhguTeb+lu2Dzij0yRpB/d1bSr+wx4ZTjwke4zXuatJ9Ma7k0r6sojETt
+2q9GkwlM/JV/XnU0X+Y+RTTLQWpYv3F/oPGeZsil8gRvdLQptlp7EQoEtHFH/aNm
+faDb8vpPtBT4OPpjaSs1XKgrDuI2pf5pQcIQxCR1ncNr/EpCAk21gmz+K3jmCKy2
+TdHocM9LAlen2+fEYCSjAwlC19qGif+Gd/ITePW/8dHcPd6AiNCRcnfOKcJEKQiu
+tu+xx3tMlBdGFKGvVoJuOb/xHeJ8vsIYGSQixsiA0DFVocqth7JglV5DhPqkBxLD
+SnG4/55906p8lH3Z2oRvZSbsNh+bbvmghSLmYN8TbeSz6gZn49NQjPnCJnEPRAGj
+ULu0tAim9wc3MSIuomNCmCwvQ5sxerOQeH1mG1fCfZcSzM0pHb6pm91S1g3c97EO
+p/dvTeGursxIr2/tEgfszqE1ag/kwRK1WacCNxojgeNGeZQV1FeqpBcFLg8QsATl
+ikQPRLEt
+=vN/O
+-----END PGP SIGNATURE-----
