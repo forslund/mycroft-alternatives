@@ -23,19 +23,19 @@ Description: Secure Sockets Layer toolkit - shared libraries
  It provides the libssl and libcrypto shared libraries.
 
 Package: mycroft-core
-Version: 19.8.1+1570787836
+Version: 19.8.2+1571987022
 Architecture: armhf
 Maintainer: Mycroft AI <devs@mycroft.ai>
-Installed-Size: 103183
+Installed-Size: 103269
 Depends: perl, dnsmasq, avrdude, jq, portaudio19-dev, libglib2.0-0, flac, mpg123, mimic (>= 1.2.0.2), pulseaudio, git, locate, python3-dev, libjpeg-dev, libfann-dev (>= 2.2.0), packagekit, mycroft-python
 Replaces: msm, mycroft-core
 Priority: extra
 Section: python
-Filename: pool/main/m/mycroft-core/mycroft-core_19.8.1+1570787836_armhf.deb
-Size: 44003922
-SHA256: 508c8329b3f82d1118fa8ee91410ff53d1f03a4a19d167c285772ad32995e1b5
-SHA1: fc7033e0725ecf9f3938dc18ee513ffc9d06a727
-MD5sum: 4e72c026a647de25541bc382a140a365
+Filename: pool/main/m/mycroft-core/mycroft-core_19.8.2+1571987022_armhf.deb
+Size: 43864500
+SHA256: 90d116b7761f90171543c78adae6f0768f5be8364bcaa788719424c76b0a5495
+SHA1: c908ba2f7699ae80bcd3f9bae6c835e70d91887c
+MD5sum: db624ef8bed8495773740d0b35555294
 Description: mycroft-core
 
 Package: mycroft-python
