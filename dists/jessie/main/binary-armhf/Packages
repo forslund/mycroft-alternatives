@@ -1,3 +1,29 @@
+Package: libssl-dev
+Source: openssl
+Version: 1.1.0k-1~deb9u1
+Architecture: armhf
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Installed-Size: 4680
+Depends: libssl1.1 (= 1.1.0k-1~deb9u1)
+Recommends: libssl-doc
+Conflicts: libssl1.0-dev
+Multi-Arch: same
+Homepage: https://www.openssl.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/openssl/libssl-dev_1.1.0k-1~deb9u1_armhf.deb
+Size: 1411658
+SHA256: 1c4a249357108480a988c1a10471854a8238ee55e39718cf49b71f38700136fe
+SHA1: 143c4f66d5c804045708f9a9b2ddab371acf66de
+MD5sum: 9bbcafd0af02755f279edfde615ce830
+Description: Secure Sockets Layer toolkit - development files
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It contains development libraries, header files, and manpages for libssl
+ and libcrypto.
+
 Package: libssl1.1
 Source: openssl
 Version: 1.1.0k-1~deb9u1
@@ -22,6 +48,22 @@ Description: Secure Sockets Layer toolkit - shared libraries
  .
  It provides the libssl and libcrypto shared libraries.
 
+Package: mycroft-base
+Version: 19.8.2+1571720628
+Architecture: armhf
+Maintainer: Mycroft AI <devs@mycroft.ai>
+Installed-Size: 129550
+Depends: perl, jq, portaudio19-dev, libglib2.0-0, flac, mpg123, mimic (>= 1.2.0.2), pulseaudio, git, locate, python3-dev, libjpeg-dev, libfann-dev (>= 2.2.0), packagekit
+Replaces: msm, mycroft-base
+Priority: extra
+Section: python
+Filename: pool/main/m/mycroft-base/mycroft-base_19.8.2+1571720628_armhf.deb
+Size: 47478648
+SHA256: d4ed21a73ac7e4027d86df608f80c8695a457233b2d63d4298869bf9b021b51b
+SHA1: 89f7cc90d00da13ed80a213d8e773a03d7ff7745
+MD5sum: 466bd4f8d32bad42c41cd0862212dae6
+Description: mycroft-base
+
 Package: mycroft-core
 Version: 19.8.2+1571987022
 Architecture: armhf
@@ -37,6 +79,23 @@ SHA256: 90d116b7761f90171543c78adae6f0768f5be8364bcaa788719424c76b0a5495
 SHA1: c908ba2f7699ae80bcd3f9bae6c835e70d91887c
 MD5sum: db624ef8bed8495773740d0b35555294
 Description: mycroft-core
+
+Package: mycroft-mark2
+Version: 0.1-1
+Architecture: all
+Maintainer: unknown <pi@mark_2>
+Installed-Size: 58
+Depends: mycroft-base
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mycroft-mark2/mycroft-mark2_0.1-1_all.deb
+Size: 6092
+SHA256: f8793774e175d9710f3fb47f85c6c626cbbba1d7796b0fe7d1f0944c9701fa47
+SHA1: d5cf26c81de84b1c74fdadfbb49a1e6e59a33454
+MD5sum: e4e6511951354eaad00af1e13744e5d4
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
 
 Package: mycroft-python
 Source: python
