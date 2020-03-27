@@ -4,33 +4,33 @@ Hash: SHA512
 Origin: Mycroft-alternative
 Label: Mycroft-alternative
 Codename: jessie
-Date: Fri, 27 Mar 2020 10:00:02 UTC
+Date: Fri, 27 Mar 2020 11:28:20 UTC
 Architectures: armhf
 Components: main
 Description: Alternative repo for mycroft-core
 MD5Sum:
- 49d94afa42180c394bdd789fe66753f4 11523 main/binary-armhf/Packages
- b22ab2b955048bacce52f578f8d7b5ae 3441 main/binary-armhf/Packages.gz
+ f73b6d87ab34b3dff9fe001c5bdb0f16 11932 main/binary-armhf/Packages
+ 5f9b21ebfdf00cee7fbdc0448d85a854 3603 main/binary-armhf/Packages.gz
  2c7ce8213915b28f952a09a1a9c6a8db 138 main/binary-armhf/Release
 SHA1:
- 06367f5010355dd685299e8fb93855674d2f2c5c 11523 main/binary-armhf/Packages
- c147372b4968b21e0eeebc14b83ef0908b950a9b 3441 main/binary-armhf/Packages.gz
+ a5bac6849f38bffc084751f9fd32e4f373bb12ab 11932 main/binary-armhf/Packages
+ 20608808a65e08f25fbce1ef585e0a3a59c23950 3603 main/binary-armhf/Packages.gz
  617165369f3a79ffd74c813c26e1f32c222c2247 138 main/binary-armhf/Release
 SHA256:
- c569fdb6c2140cffe358ca29f81b2d133ec2582819a3edbe43a6fe015baf31d6 11523 main/binary-armhf/Packages
- 97d5e36ab5fcc2dd4d722b8290e770cd581ba79330f40b8b4a1a40b9c22f022f 3441 main/binary-armhf/Packages.gz
+ 76129e82c592d4d5f2b275c9587fbdde2551da4a68c6fe2f095f4db07a87609b 11932 main/binary-armhf/Packages
+ f4d31c8aeb0ae68c8bdc96ce3981a4fae11a8fd140ec7df91da55b0176e478fb 3603 main/binary-armhf/Packages.gz
  541964bed75e626eb5a376a8f741c7899f51327ecbf0d0085ecfcb986c7acf5d 138 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEGASpQwQFCcrGSLycggXWlAQrlX0FAl59zqIACgkQggXWlAQr
-lX3sYgv/SgJxJRHBr1yE4IidBHRrQlOPT5XozQ3hleon8vlJbLkVR87I02zYUR4q
-M1R/UVAjg9N3NZJRUU1Q8Foqdr9akUO1LOlUB8aPuNTaYu9Mpc3/1EqiE07c/HFq
-FF65/pY1V1pWOb5LI8wLFSKla/cxWJtn5ApMF5kQFf1D55F1uBxcsxA7sDc0Qgdf
-Kw+pW3QlTro9QuAKep8ptGfWkXKh9zzbWMa/BmANSFObGfPgUMvDcLZ8kG0DNeK4
-nyCPj3gbAMf1Wg9utveK9JRYkee6/JFCkUT2iWdUxJ+QRXODTMzr34DSl9QtZbA1
-cWwT4utCEgu4wF6WkN+4DF9NRAw83Q2XFxR7GmVR6Z84wlpKt/Kh2hBMID4Iy00J
-RvSZCJoWTTGPSxR7wz0quJIEtHS89Vs0zr8flo+AyUQMjNOzC/saBjAvSdkijv/+
-3+x2ldH6fftpFPgWdGcPDy1fteX62Mxo9RCjbPsoQgVI0qEL8/+PVe0adJJQ4KVD
-+KuRDWjL
-=bSzT
+iQGzBAEBCgAdFiEEGASpQwQFCcrGSLycggXWlAQrlX0FAl5941cACgkQggXWlAQr
+lX2TgQwAnO9cpKswL0AR/O4TEEP7qcz32UArvyAsXgLp0BGs3+B4Pw884WerCjXk
+PBV31TcxCQ/VncX/RuCTqgCr3zT/rAE4pfiFq2hgNLwCmxQl1ZTn+b+uZvFXpd60
+5nekgl8PN04OvCvhsmr1RK33Rhlpyes0HaOLLJZQ6jcS3epLjVRExKiPpofEipjY
+GG3d436Y4YqL0KtVDzE9ywdDlp/dkR23fQsEr8nIRK0lLSS3t2Sts90FUxJKCNAP
+/7g4WT/XIiWoeH56Jzp9las/I0MClys60BUY8n2pb01srseJFPqcfjUt2puiLOf/
+dBeVWo2lFGh2MBoUWYrnQlNOVhZjKZoVfUJLPuK2rkBOyJfTqixX9UY8mx+b8pU2
+pk6+6mWIrCTS6XBsx3TJ+rmoyxWaN6XwL12p2Wk4uQ9+mkSj1CUaF2fgdxky2UY9
+4kv9pxbte5VZg8ehKjTTVPsZQZwqLGeQmAdSZVDZ2h5muSy0QCfpRpgKVkbFuDOX
+pJ+snB/l
+=jirO
 -----END PGP SIGNATURE-----
