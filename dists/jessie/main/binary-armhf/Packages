@@ -1,3 +1,125 @@
+Package: libpcre2-16-0
+Source: pcre2
+Version: 10.22-3
+Architecture: armhf
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 334
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/p/pcre2/libpcre2-16-0_10.22-3_armhf.deb
+Size: 152556
+SHA256: 9b0c7418f69cd63a32385512e727b65ef757b0d5aeb0b824933cff4a379bc01c
+SHA1: e254212e6520819ac91a1c98b5e905c34b5c0215
+MD5sum: c6e2bd655b631c7d195ae4bd7f042419
+Description: New Perl Compatible Regular Expression Library - 16 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 16 bit runtime library.
+
+Package: libpcre2-32-0
+Source: pcre2
+Version: 10.22-3
+Architecture: armhf
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 318
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/p/pcre2/libpcre2-32-0_10.22-3_armhf.deb
+Size: 144406
+SHA256: 16c977a06450640778c202923417b379dcbf0fa117ef1461627464a8dfd51d66
+SHA1: 3c3f2be76325ad5859eb9a7282e9b34bcd81eb4b
+MD5sum: 5be3721976396a58f92bba569a7f3373
+Description: New Perl Compatible Regular Expression Library - 32 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 32 bit runtime library.
+
+Package: libpcre2-8-0
+Source: pcre2
+Version: 10.22-3
+Architecture: armhf
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 363
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/p/pcre2/libpcre2-8-0_10.22-3_armhf.deb
+Size: 161782
+SHA256: 563d728d2e2aec9b4250bfd66d6ed19600560bb500987f0aa62f131e1122a92b
+SHA1: afe6a8d8cf62338570927028012138a4a9c1cefc
+MD5sum: 79b8658b0b98a37bcefb90786e97a9b9
+Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 8 bit runtime library.
+
+Package: libpcre2-dev
+Source: pcre2
+Version: 10.22-3
+Architecture: armhf
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 1351
+Depends: libc6-dev, libpcre2-8-0 (= 10.22-3), libpcre2-16-0 (= 10.22-3), libpcre2-32-0 (= 10.22-3), libpcre2-posix0 (= 10.22-3)
+Conflicts: libpcre3-dev (<< 2:8.35-8)
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/pcre2/libpcre2-dev_10.22-3_armhf.deb
+Size: 535306
+SHA256: e40ab986d1db5d8f0c03d8ef8c524cd5af4c90a51e8c7e24edffc5dda7e73889
+SHA1: ba459899d2bc93864a2bbb47eeb7d77eaa4ec025
+MD5sum: ce9739dd9ccf061ec7b19c65b3aadd9d
+Description: New Perl Compatible Regular Expression Library - development files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the development files, including headers,
+ static libraries, and documentation.
+
+Package: libpcre2-posix0
+Source: pcre2
+Version: 10.22-3
+Architecture: armhf
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 38
+Depends: libc6 (>= 2.4), libpcre2-8-0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/p/pcre2/libpcre2-posix0_10.22-3_armhf.deb
+Size: 21706
+SHA256: ad4ba0106699c9989c5af6832f43a590e616107825ef081d0bf11dd61df0cad2
+SHA1: 9485bbe839b64b7d44694480b17ee06e0e2de1a5
+MD5sum: 872ebf4e22ac4cfb94e1ebb6592888aa
+Description: New Perl Compatible Regular Expression Library - posix-compatible runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the runtime library for the posix-compatible API.
+
 Package: libssl-dev
 Source: openssl
 Version: 1.1.0k-1~deb9u1
@@ -146,4 +268,30 @@ Description: Secure Sockets Layer toolkit - cryptographic utility
   * encrypting and decrypting with ciphers;
   * testing SSL/TLS clients and servers;
   * handling S/MIME signed or encrypted mail.
+
+Package: pcre2-utils
+Source: pcre2
+Version: 10.22-3
+Architecture: armhf
+Maintainer: Matthew Vernon <matthew@debian.org>
+Installed-Size: 190
+Depends: libc6 (>= 2.4), libpcre2-16-0, libpcre2-32-0, libpcre2-8-0, libpcre2-posix0
+Priority: optional
+Section: utils
+Filename: pool/main/p/pcre2/pcre2-utils_10.22-3_armhf.deb
+Size: 108132
+SHA256: 6b4305a93c0a47d6c5883f3703a5019a734ff0fa2cbe5d1f3faa1f233f0522c7
+SHA1: 0b3817964b96868973e0bfaf601e01f3cf49a205
+MD5sum: 7b71fef29884377c4280e02c7c5f934d
+Description: New Perl Compatible Regular Expression Library - utilities
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the utilities pcre2grep (like grep with PCRE)
+ and pcre2test (a test program for the library, but also useful for
+ experimenting with regular expressions). Both programs are also
+ useful examples of programming with libpcre2.
 

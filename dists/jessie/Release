@@ -1,19 +1,19 @@
 Origin: Mycroft-alternative
 Label: Mycroft-alternative
 Codename: jessie
-Date: Wed, 30 Oct 2019 14:31:00 UTC
+Date: Fri, 27 Mar 2020 10:00:02 UTC
 Architectures: armhf
 Components: main
 Description: Alternative repo for mycroft-core
 MD5Sum:
- 02b393c47e35636ecd109abde730301c 5730 main/binary-armhf/Packages
- 7b38e91ff3beeea4c16297b35fef767c 2221 main/binary-armhf/Packages.gz
+ 49d94afa42180c394bdd789fe66753f4 11523 main/binary-armhf/Packages
+ b22ab2b955048bacce52f578f8d7b5ae 3441 main/binary-armhf/Packages.gz
  2c7ce8213915b28f952a09a1a9c6a8db 138 main/binary-armhf/Release
 SHA1:
- cb3c4de5cefcc3b0c61e58f09335ace8072b7425 5730 main/binary-armhf/Packages
- d0f27024ecdeeafc075bac7add23bd3d7f66b127 2221 main/binary-armhf/Packages.gz
+ 06367f5010355dd685299e8fb93855674d2f2c5c 11523 main/binary-armhf/Packages
+ c147372b4968b21e0eeebc14b83ef0908b950a9b 3441 main/binary-armhf/Packages.gz
  617165369f3a79ffd74c813c26e1f32c222c2247 138 main/binary-armhf/Release
 SHA256:
- 003cd93a8e2339ebb4e78a46e51682bb638aa78dca1a8427a3931f91feea6004 5730 main/binary-armhf/Packages
- abde9eb9d204943a3b8b8dce6bb6075221e3326081241daaf015121d8b9fba56 2221 main/binary-armhf/Packages.gz
+ c569fdb6c2140cffe358ca29f81b2d133ec2582819a3edbe43a6fe015baf31d6 11523 main/binary-armhf/Packages
+ 97d5e36ab5fcc2dd4d722b8290e770cd581ba79330f40b8b4a1a40b9c22f022f 3441 main/binary-armhf/Packages.gz
  541964bed75e626eb5a376a8f741c7899f51327ecbf0d0085ecfcb986c7acf5d 138 main/binary-armhf/Release
