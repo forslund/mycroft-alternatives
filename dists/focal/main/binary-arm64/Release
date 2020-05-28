@@ -1,0 +1,5 @@
+Component: main
+Origin: Mycroft-alternative
+Label: Mycroft-alternative
+Architecture: arm64
+Description: Alternative repo for mycroft-core

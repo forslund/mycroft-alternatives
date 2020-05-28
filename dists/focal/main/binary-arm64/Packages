@@ -1,0 +1,69 @@
+Package: mycroft-gui
+Version: 1.0-0ubuntu1
+Architecture: arm64
+Maintainer: KDE neon <neon@kde.org>
+Installed-Size: 568
+Depends: plasma-workspace, qml-module-qtquick-particles2, qml-module-qtwebengine, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkf5dbusaddons5 (>= 4.97.0), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.10.0) | libqt5quick5-gles (>= 5.10.0), libqt5websockets5 (>= 5.6.0), libqt5webview5 (>= 5.9.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: kde
+Filename: pool/main/m/mycroft-gui/mycroft-gui_1.0-0ubuntu1_arm64.deb
+Size: 157512
+SHA256: cc338d12eb98643a78c2b9be2f7809b837ab9fee4b3577f9633467631a09909c
+SHA1: 7dfac0d8829dd6aae6ca3a9c64ede297ceacc76f
+MD5sum: 67ff4156061bcf0b8fac8da522caa5bc
+Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
+ Tool to integrate Mycroft with your KDE Plasma 5 Desktop
+ .
+ It adds a set of plasmoids, plugins and services to the KDE Plasma Workspace.
+ .
+ These can be added to your desktop, or any panels on your workspace.
+
+Package: mycroft-gui-mark-2
+Version: 1.0
+Architecture: arm64
+Maintainer: KDE neon <neon@kde.org>
+Installed-Size: 490
+Depends: plasma-workspace, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkworkspace5-5 (>= 4:5.8.1), libqt5core5a (>= 5.5.0), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
+Priority: optional
+Section: kde
+Filename: pool/main/m/mycroft-gui-mark-2/mycroft-gui-mark-2_1.0_arm64.deb
+Size: 258392
+SHA256: 214eb164e72908eabf87676e8df8ea50c284111f01f4290703810fabf9759de6
+SHA1: 8e1984b3446bcad145f3f627dd0675b982a7cda6
+MD5sum: 6a23d1206eb383750329c8a6e998f09e
+Description: Mycroft Ai Mark-II containment
+ Plasma Shell components specific for the Mark 2 device.
+
+Package: plasma-nano
+Version: 5.18.5-0ubuntu
+Architecture: arm64
+Maintainer: Harald Sitter <sitter@kde.org>
+Installed-Size: 153
+Depends: plasma-workspace, libc6 (>= 2.17), libkf5waylandclient5 (>= 4:5.5.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-nano/plasma-nano_5.18.5-0ubuntu_arm64.deb
+Size: 23088
+SHA256: 85210029bbb7c2aa620e39f8eb68bf4db5ff52f93e6d1dfdda7fd148228bf414
+SHA1: 81f432334752167d54f3b51af9ae43b5833b7fd6
+MD5sum: a89906d98ebb6f7dbb3a6702167c9044
+Description: Plasma shell for embedded devices
+ A minimal plasma shell package intended for embedded devices
+
+Package: qml-module-org-kde-lottie
+Source: lottie-qml
+Version: 0.1
+Architecture: arm64
+Maintainer: Harald Sitter <sitter@kde.org>
+Installed-Size: 282
+Depends: qml-module-qt-labs-settings, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-window2
+Priority: optional
+Section: misc
+Filename: pool/main/l/lottie-qml/qml-module-org-kde-lottie_0.1_arm64.deb
+Size: 59576
+SHA256: f14a6222c3fbd91497c5a9529c5c6f62fabc96f5f3e4a9a99cece5335cbcdf55
+SHA1: 0cb12277305d38e0a0154cc71bc6b8cac64ed69e
+MD5sum: a053119a4fe6eaf9f266032e71ff109b
+Description: ((TBD))
+ ((TBD))
+

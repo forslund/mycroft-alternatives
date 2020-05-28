@@ -5,3 +5,11 @@ Architectures: armhf
 Components: main
 Description: Alternative repo for mycroft-core
 SignWith: mycroft-alternatives
+
+Origin: Mycroft-alternative
+Label: Mycroft-alternative
+Codename: focal
+Architectures: arm64 armhf
+Components: main
+Description: Alternative repo for mycroft-core
+SignWith: mycroft-alternatives

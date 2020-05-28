@@ -1,0 +1,5 @@
+Component: main
+Origin: Mycroft-alternative
+Label: Mycroft-alternative
+Architecture: armhf
+Description: Alternative repo for mycroft-core
