@@ -1,3 +1,25 @@
+Package: librespot
+Version: 0.1.1
+Architecture: arm64
+Vcs-Browser: https://github.com/librespot-org/librespot
+Vcs-Git: https://github.com/librespot-org/librespot
+Standards-Version: 3.9.4
+Maintainer: librespot-org
+Installed-Size: 6615
+Depends: libgcc-s1 (>= 10), libasound2 (>= 1.2.2), libc6 (>= 2.31)
+Priority: optional
+Section: sound
+Filename: pool/main/libr/librespot/librespot_0.1.1_arm64.deb
+Size: 1458540
+SHA256: 68a2b1b7996c1b18265602ff8fed116bd860ddcaf29079c4a1214254d46d9599
+SHA1: 5a4e69777406e4da69deaa06162648e3cd7c7367
+MD5sum: 8f3a4740ce217d09b45912f0174a240c
+Description: An open source client library for Spotify, with support for Spotify Connect
+ librespot is an open source client library for Spotify. It enables applications
+ to use Spotify's service, without using the official but closed-source
+ libspotify. Additionally, it will provide extra features which are not
+ available in the official library.
+
 Package: mycroft-gui
 Version: 1.0-0ubuntu1
 Architecture: arm64
