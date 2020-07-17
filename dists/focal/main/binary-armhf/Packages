@@ -1,0 +1,17 @@
+Package: mycroft-mark-2
+Version: 0.1
+Architecture: all
+Maintainer: Åke Forslund <ake.forslund@gmail.com>
+Installed-Size: 12
+Depends: mycroft-core
+Homepage: https://github.com/forslund/mycroft-desktop-deb
+Priority: optional
+Section: main
+Filename: pool/main/m/mycroft-mark-2/mycroft-mark-2_0.1_all.deb
+Size: 1656
+SHA256: da67ded593957cbd9d70c6c01ecd215f4c94941639a61cbff8babab1701473ca
+SHA1: 7dbdc6192631eb423c326e929ea75647d5f1d993
+MD5sum: bcaa96719f07a1c969d75d074bd6e299
+Description: Mycroft Mark 2 System
+ Startup files for Mycroft Mark 2.
+

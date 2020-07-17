@@ -20,19 +20,35 @@ Description: An open source client library for Spotify, with support for Spotify
  libspotify. Additionally, it will provide extra features which are not
  available in the official library.
 
+Package: mycroft-core
+Version: 20.2.4+1594891657
+Architecture: arm64
+Maintainer: Mycroft AI <devs@mycroft.ai>
+Installed-Size: 103423
+Depends: perl, jq, portaudio19-dev, libglib2.0-0, flac, mpg123, pulseaudio, git, python3-dev, libjpeg-dev, libfann-dev (>= 2.2.0), packagekit, mimic (>= 1.2.0)
+Replaces: msm, mycroft-core
+Priority: extra
+Section: python
+Filename: pool/main/m/mycroft-core/mycroft-core_20.2.4+1594891657_arm64.deb
+Size: 44330500
+SHA256: 5fa4e103916f4c0415bcce68d1d53798a9a0b06c972caaae1a5c6ff6139ff57e
+SHA1: 0bd8c017339d517c7b2cdf389b0730e527b39a31
+MD5sum: a734b2762d47f96a47234f5897f4ec59
+Description: mycroft-core
+
 Package: mycroft-gui
-Version: 1.0-0ubuntu1
+Version: 1.0.1-0ubuntu1
 Architecture: arm64
 Maintainer: KDE neon <neon@kde.org>
-Installed-Size: 568
+Installed-Size: 612
 Depends: plasma-workspace, qml-module-qtquick-particles2, qml-module-qtwebengine, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkf5dbusaddons5 (>= 4.97.0), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.10.0) | libqt5quick5-gles (>= 5.10.0), libqt5websockets5 (>= 5.6.0), libqt5webview5 (>= 5.9.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Priority: optional
 Section: kde
-Filename: pool/main/m/mycroft-gui/mycroft-gui_1.0-0ubuntu1_arm64.deb
-Size: 157512
-SHA256: cc338d12eb98643a78c2b9be2f7809b837ab9fee4b3577f9633467631a09909c
-SHA1: 7dfac0d8829dd6aae6ca3a9c64ede297ceacc76f
-MD5sum: 67ff4156061bcf0b8fac8da522caa5bc
+Filename: pool/main/m/mycroft-gui/mycroft-gui_1.0.1-0ubuntu1_arm64.deb
+Size: 167404
+SHA256: ecb96e1ba3411e8f35b17114f036e98911e28038d28fafbf9ede5b96ed7b03ab
+SHA1: 24377e143ed406c4cbb324e9065252ddbd9b2388
+MD5sum: ef2b75b379feff32b04ba7ea8dea4af3
 Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
  Tool to integrate Mycroft with your KDE Plasma 5 Desktop
  .
@@ -55,6 +71,23 @@ SHA1: b8015db2a943346b49d7278d1d66f1c718189d29
 MD5sum: 3eb7670702f58d8f78b0f6891b911a06
 Description: Mycroft Ai Mark-II containment
  Plasma Shell components specific for the Mark 2 device.
+
+Package: mycroft-mark-2
+Version: 0.1
+Architecture: all
+Maintainer: Åke Forslund <ake.forslund@gmail.com>
+Installed-Size: 12
+Depends: mycroft-core
+Homepage: https://github.com/forslund/mycroft-desktop-deb
+Priority: optional
+Section: main
+Filename: pool/main/m/mycroft-mark-2/mycroft-mark-2_0.1_all.deb
+Size: 1656
+SHA256: da67ded593957cbd9d70c6c01ecd215f4c94941639a61cbff8babab1701473ca
+SHA1: 7dbdc6192631eb423c326e929ea75647d5f1d993
+MD5sum: bcaa96719f07a1c969d75d074bd6e299
+Description: Mycroft Mark 2 System
+ Startup files for Mycroft Mark 2.
 
 Package: plasma-nano
 Version: 5.18.5-0ubuntu
