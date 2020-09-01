@@ -57,18 +57,18 @@ Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
  These can be added to your desktop, or any panels on your workspace.
 
 Package: mycroft-gui-mark-2
-Version: 1.0.1
+Version: 1.0.2
 Architecture: arm64
 Maintainer: KDE neon <neon@kde.org>
 Installed-Size: 491
 Depends: plasma-workspace, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkworkspace5-5 (>= 4:5.8.1), libqt5core5a (>= 5.5.0), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
 Priority: optional
 Section: kde
-Filename: pool/main/m/mycroft-gui-mark-2/mycroft-gui-mark-2_1.0.1_arm64.deb
-Size: 258376
-SHA256: 096678be9bbca8ff94e24d526a438f31ec26ae9e004e9a4574a09f08c6a5c500
-SHA1: b8015db2a943346b49d7278d1d66f1c718189d29
-MD5sum: 3eb7670702f58d8f78b0f6891b911a06
+Filename: pool/main/m/mycroft-gui-mark-2/mycroft-gui-mark-2_1.0.2_arm64.deb
+Size: 258432
+SHA256: 42468ba21200d18175aa4439c514efca6e00fc4726c79472a1211339847fb656
+SHA1: 1988a490fc052a7c9ebf5b7ed101f2e99788d8d7
+MD5sum: 836fa474ee5aad9aaf9c7bc2823968b2
 Description: Mycroft Ai Mark-II containment
  Plasma Shell components specific for the Mark 2 device.
 
