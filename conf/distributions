@@ -1,7 +1,7 @@
 Origin: Mycroft-alternative
 Label: Mycroft-alternative
 Codename: jessie
-Architectures: armhf
+Architectures: armhf arm64
 Components: main
 Description: Alternative repo for mycroft-core
 SignWith: mycroft-alternatives
