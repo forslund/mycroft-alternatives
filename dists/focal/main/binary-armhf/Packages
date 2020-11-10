@@ -1,3 +1,25 @@
+Package: librespot
+Version: 0.1.3
+Architecture: armhf
+Vcs-Browser: https://github.com/librespot-org/librespot
+Vcs-Git: https://github.com/librespot-org/librespot
+Standards-Version: 3.9.4
+Maintainer: librespot-org
+Installed-Size: 5719
+Depends: libasound2 (>= 1.2.2), libc6 (>= 2.31)
+Priority: optional
+Section: sound
+Filename: pool/main/libr/librespot/librespot_0.1.3_armhf.deb
+Size: 1370758
+SHA256: 582757b081ccefb70545ebaed7b531d94ff4886b3e87a2fb135a820b810fa38f
+SHA1: ac5c806bac39026bb8a503cdac1879fc8eb3b9de
+MD5sum: 761348cdb1cee50e08f904e9bf5632fb
+Description: An open source client library for Spotify, with support for Spotify Connect
+ librespot is an open source client library for Spotify. It enables applications
+ to use Spotify's service, without using the official but closed-source
+ libspotify. Additionally, it will provide extra features which are not
+ available in the official library.
+
 Package: mimic
 Version: 1.3.0.1
 Architecture: armhf
@@ -11,6 +33,42 @@ SHA1: e28d3485a3e889ac5c797bafd9c8b3ea01335874
 MD5sum: 177d5998d8d5c25b710fc6079165f260
 Description: mimic
 Depends: pcre2-utils
+
+Package: mycroft-gui
+Version: 1.0-0ubuntu1
+Architecture: armhf
+Maintainer: KDE neon <neon@kde.org>
+Installed-Size: 491
+Depends: plasma-workspace, qml-module-qtquick-particles2, qml-module-qtwebengine, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libkf5dbusaddons5 (>= 4.97.0), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.10.0) | libqt5quick5-gles (>= 5.10.0), libqt5websockets5 (>= 5.6.0), libqt5webview5 (>= 5.9.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.3.0)
+Priority: optional
+Section: kde
+Filename: pool/main/m/mycroft-gui/mycroft-gui_1.0-0ubuntu1_armhf.deb
+Size: 155552
+SHA256: 08d984e72be99d728b306d151efe0e178506c2ba7fbc26ad6e0005d853d3a92d
+SHA1: 9cc0d68f4bf346fd8e670b8e0acf12bd9a162573
+MD5sum: ae7427b739ed327df1afb5fbb3e11be7
+Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
+ Tool to integrate Mycroft with your KDE Plasma 5 Desktop
+ .
+ It adds a set of plasmoids, plugins and services to the KDE Plasma Workspace.
+ .
+ These can be added to your desktop, or any panels on your workspace.
+
+Package: mycroft-gui-mark-2
+Version: 1.0
+Architecture: armhf
+Maintainer: KDE neon <neon@kde.org>
+Installed-Size: 486
+Depends: plasma-workspace, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libkworkspace5-5 (>= 4:5.8.1), libqt5core5a (>= 5.5.0), libqt5qml5 (>= 5.0.2), libstdc++6 (>= 5)
+Priority: optional
+Section: kde
+Filename: pool/main/m/mycroft-gui-mark-2/mycroft-gui-mark-2_1.0_armhf.deb
+Size: 257656
+SHA256: 28f02805b85ddfc7b14bbcbc92dc26bbc73814e77afdf0c304986cfdd2f81306
+SHA1: adbd7f7e324ab34a6540dfc2e80d8b46a19bc7bd
+MD5sum: 3232be6547f640b67f8dee3aed94cdf5
+Description: Mycroft Ai Mark-II containment
+ Plasma Shell components specific for the Mark 2 device.
 
 Package: mycroft-mark-2
 Version: 0.3
@@ -28,4 +86,37 @@ SHA1: ede2c4adfaee5c25608847e43e2897df3509a7f4
 MD5sum: 8ced50333382f08405217427140d524c
 Description: Mycroft Mark 2 System
  Startup files for Mycroft Mark 2.
+
+Package: plasma-nano
+Version: 5.19.0-0
+Architecture: armhf
+Maintainer: Harald Sitter <sitter@kde.org>
+Installed-Size: 150
+Depends: plasma-workspace, libc6 (>= 2.4), libkf5waylandclient5 (>= 4:5.5.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-nano/plasma-nano_5.19.0-0_armhf.deb
+Size: 22792
+SHA256: c1a7d5617b7742a57daa6ac0bf599a41483f8d8e061bae554a7edcc84fa1ecd2
+SHA1: 1c4b0a7aad2dd66c09adf122335ace2bffcd7833
+MD5sum: e0db3b70f5f2bf095a55f779bb3418a3
+Description: Plasma shell for embedded devices
+ A minimal plasma shell package intended for embedded devices
+
+Package: qml-module-org-kde-lottie
+Source: lottie-qml
+Version: 0.1
+Architecture: armhf
+Maintainer: Harald Sitter <sitter@kde.org>
+Installed-Size: 282
+Depends: qml-module-qt-labs-settings, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-window2
+Priority: optional
+Section: misc
+Filename: pool/main/l/lottie-qml/qml-module-org-kde-lottie_0.1_armhf.deb
+Size: 59568
+SHA256: ac89bc7117eb999a6a20082185feb4f7b6cd80cff6d5ef9222cd127db7f32f3a
+SHA1: 246f917082bf1f6a02f6fd1ff0001a9a70000be7
+MD5sum: 564f35d1118972c0b8d63d193673ac84
+Description: ((TBD))
+ ((TBD))
 
