@@ -35,19 +35,19 @@ Description: mimic
 Depends: pcre2-utils
 
 Package: mycroft-core
-Version: 20.2.4+1594891657
+Version: 20.8.0+1605218360
 Architecture: arm64
 Maintainer: Mycroft AI <devs@mycroft.ai>
-Installed-Size: 103423
+Installed-Size: 98082
 Depends: perl, jq, portaudio19-dev, libglib2.0-0, flac, mpg123, pulseaudio, git, python3-dev, libjpeg-dev, libfann-dev (>= 2.2.0), packagekit, mimic (>= 1.2.0)
 Replaces: msm, mycroft-core
 Priority: extra
 Section: python
-Filename: pool/main/m/mycroft-core/mycroft-core_20.2.4+1594891657_arm64.deb
-Size: 44330500
-SHA256: 5fa4e103916f4c0415bcce68d1d53798a9a0b06c972caaae1a5c6ff6139ff57e
-SHA1: 0bd8c017339d517c7b2cdf389b0730e527b39a31
-MD5sum: a734b2762d47f96a47234f5897f4ec59
+Filename: pool/main/m/mycroft-core/mycroft-core_20.8.0+1605218360_arm64.deb
+Size: 42851904
+SHA256: 708b6ed198feda4092f15cffde361e62cf5145b9bb54ba9d29ceadcf40c33c8c
+SHA1: b27d7d17dca8daaca23aa13b8a964e182a32a166
+MD5sum: bde0fd18d781549e14a0b576d7a0bcc5
 Description: mycroft-core
 
 Package: mycroft-gui
@@ -87,19 +87,19 @@ Description: Mycroft Ai Mark-II containment
  Plasma Shell components specific for the Mark 2 device.
 
 Package: mycroft-mark-2
-Version: 0.3
+Version: 0.5
 Architecture: all
 Maintainer: Åke Forslund <ake.forslund@gmail.com>
-Installed-Size: 17
-Depends: mycroft-core, logrotate
+Installed-Size: 34
+Depends: mycroft-core (>= 20.8.0), logrotate
 Homepage: https://github.com/forslund/mycroft-desktop-deb
 Priority: optional
 Section: main
-Filename: pool/main/m/mycroft-mark-2/mycroft-mark-2_0.3_all.deb
-Size: 2152
-SHA256: a5edbf44a1db9007f0d621cfacce46b8992e0db96c43a18a600cb726368efbd0
-SHA1: ede2c4adfaee5c25608847e43e2897df3509a7f4
-MD5sum: 8ced50333382f08405217427140d524c
+Filename: pool/main/m/mycroft-mark-2/mycroft-mark-2_0.5_all.deb
+Size: 3632
+SHA256: f1ea786474610f06144246c0a14f4b37a3335763c0e02ab0eb7e38995b99d7e8
+SHA1: e01fa85c5129833b8eccba08465d71c469cc920c
+MD5sum: 1d39da8561954cc555b0fd934c117c5f
 Description: Mycroft Mark 2 System
  Startup files for Mycroft Mark 2.
 
