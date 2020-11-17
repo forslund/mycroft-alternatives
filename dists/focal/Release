@@ -1,28 +1,28 @@
 Origin: Mycroft-alternative
 Label: Mycroft-alternative
 Codename: focal
-Date: Tue, 17 Nov 2020 06:49:03 UTC
+Date: Tue, 17 Nov 2020 08:02:45 UTC
 Architectures: arm64 armhf
 Components: main
 Description: Alternative repo for mycroft-core
 MD5Sum:
- 89e85e2ab8398a097e74f2c107d3a60d 5734 main/binary-arm64/Packages
- 127a51e0d10c274cac5732f5428bdcf9 2356 main/binary-arm64/Packages.gz
+ 592d6fd92427fca2c0c136eec3dae725 5722 main/binary-arm64/Packages
+ 7a1312622587cd65e000cae44973ebc9 2346 main/binary-arm64/Packages.gz
  f0e2338f1d95037feae20987633c8ca9 138 main/binary-arm64/Release
- e2c88fc6fefa790b6e4a34e6863ff032 5035 main/binary-armhf/Packages
- 978c4e1dbe32df81730d324c3aa04e23 2082 main/binary-armhf/Packages.gz
+ 0d954853071382ed5651116b3a178587 5023 main/binary-armhf/Packages
+ 703f81ef23994acc3912f0a233fd2e2e 2079 main/binary-armhf/Packages.gz
  2c7ce8213915b28f952a09a1a9c6a8db 138 main/binary-armhf/Release
 SHA1:
- b93e995dd2c0cca9aca7fb3cf91ec3666cec99ed 5734 main/binary-arm64/Packages
- ff7241e1748cc517b1c8df52becdb11573e20f4c 2356 main/binary-arm64/Packages.gz
+ fc65bb5374347e8e29c8c52e7c4500a33b9e4370 5722 main/binary-arm64/Packages
+ b2c9c36d23457745c03e6b3f2fa7c3289c1a730d 2346 main/binary-arm64/Packages.gz
  34699cc4b0f6b77a9e6a6c2595fbabfa7ccd6d5e 138 main/binary-arm64/Release
- 0d0e5875b6497703b36c870b822259810999f93b 5035 main/binary-armhf/Packages
- fcb3eef6f85868bcefee74eb229791d4d6eb59fa 2082 main/binary-armhf/Packages.gz
+ 81aca85811e11c3fc300e1ca8dbc61240d10df4e 5023 main/binary-armhf/Packages
+ 3601d1309c626db5d420b2e392aed119b2050b3c 2079 main/binary-armhf/Packages.gz
  617165369f3a79ffd74c813c26e1f32c222c2247 138 main/binary-armhf/Release
 SHA256:
- 8f98d1818525a5733489a5a886e51581e940b1c07d2c2007a6189f11725a0603 5734 main/binary-arm64/Packages
- a5f3afc8321a1d5c63743ccc1170b5ac5c00f66ca6efc46960f33263c2d940d2 2356 main/binary-arm64/Packages.gz
+ 7e4c981d0d2f47aafe7287dfa8860e69af0d7de1d20ed495687cc83320d37b02 5722 main/binary-arm64/Packages
+ d857faa2516f68cb19dc6628d9d3d6b2b0f8a9a24a36b65e477b5aa5f42be6d7 2346 main/binary-arm64/Packages.gz
  b7c61d750cc4e58de75f5364f34c0226c3cedb36997c2d4abc355f7b317c7848 138 main/binary-arm64/Release
- b6d8387fcbbb90547d07c907614de97f6d52dc94e386556e57ff2f8e49f4f77b 5035 main/binary-armhf/Packages
- d0d9eb10b65b962af5849f9ae71de98c71685d7a08d7ed4fcda38817391bd6a8 2082 main/binary-armhf/Packages.gz
+ 9aea3bfeeac2414cfafa0e3f8752a9bf0231a5e3f16d547a57d058f47993c6c1 5023 main/binary-armhf/Packages
+ d2fc5b9bdd8249127532d6427382993115b40879f61ef97bed481a635938c529 2079 main/binary-armhf/Packages.gz
  541964bed75e626eb5a376a8f741c7899f51327ecbf0d0085ecfcb986c7acf5d 138 main/binary-armhf/Release
