@@ -87,7 +87,7 @@ Description: Mycroft Ai Mark-II containment
  Plasma Shell components specific for the Mark 2 device.
 
 Package: mycroft-mark-2
-Version: 0.5.4
+Version: 0.5.5
 Architecture: all
 Maintainer: Åke Forslund <ake.forslund@gmail.com>
 Installed-Size: 34
@@ -95,11 +95,11 @@ Depends: mycroft-core (>= 20.8.0), logrotate
 Homepage: https://github.com/forslund/mycroft-desktop-deb
 Priority: optional
 Section: main
-Filename: pool/main/m/mycroft-mark-2/mycroft-mark-2_0.5.4_all.deb
-Size: 3696
-SHA256: d2c3168457650f52ec49dd815252ce158b143cbd57153674dcab363d3e3179d1
-SHA1: a33c11bbba4cc48a9053042664c9a0b8f0e15a9f
-MD5sum: e4f878bb6b3add39d0ce8c1b919791ea
+Filename: pool/main/m/mycroft-mark-2/mycroft-mark-2_0.5.5_all.deb
+Size: 3720
+SHA256: f08e7b6f01293accf1a49ffe01414193b41a8c572a4fc43ff300695d77b3aba8
+SHA1: e24f93c9ddda67267adcc45c3742bcd507081a19
+MD5sum: a9fe36b198894ab597c7ddc32e21c42f
 Description: Mycroft Mark 2 System
  Startup files for Mycroft Mark 2.
 
