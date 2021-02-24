@@ -4,42 +4,42 @@ Hash: SHA512
 Origin: Mycroft-alternative
 Label: Mycroft-alternative
 Codename: focal
-Date: Tue, 16 Feb 2021 18:33:18 UTC
+Date: Wed, 24 Feb 2021 06:40:51 UTC
 Architectures: arm64 armhf
 Components: main
 Description: Alternative repo for mycroft-core
 MD5Sum:
- 3f90d6b50b60947b7f3009c146cdb702 6819 main/binary-arm64/Packages
- 98052cf4f0d7a6928e0d913c27add067 2746 main/binary-arm64/Packages.gz
+ ee70dbd1e64e64f1d7314b027d952eba 6850 main/binary-arm64/Packages
+ 41e2db5a02b0296884e46b0a42276f7b 2761 main/binary-arm64/Packages.gz
  f0e2338f1d95037feae20987633c8ca9 138 main/binary-arm64/Release
  6ae5983d1984635d93793f897255d9e5 5039 main/binary-armhf/Packages
  8c80d4ba1d5b99a1639c707bb2af22a7 2087 main/binary-armhf/Packages.gz
  2c7ce8213915b28f952a09a1a9c6a8db 138 main/binary-armhf/Release
 SHA1:
- eb8781f80d8388f918b35791b4aa40f69b1d2964 6819 main/binary-arm64/Packages
- 1aa1808e39bb51cad9658c2593cd4fbe369964c5 2746 main/binary-arm64/Packages.gz
+ 074d3e08fdcad2b6ca75fc094e27b710064bd61d 6850 main/binary-arm64/Packages
+ 5f7513a71f00fc0d514f749348c8c1c14b59a17f 2761 main/binary-arm64/Packages.gz
  34699cc4b0f6b77a9e6a6c2595fbabfa7ccd6d5e 138 main/binary-arm64/Release
  7fb8ae8fad8f84982dd4d6b3ec8672210af8845e 5039 main/binary-armhf/Packages
  9019ae836a6bd9ab896f3c8d12caf7cd290b84d0 2087 main/binary-armhf/Packages.gz
  617165369f3a79ffd74c813c26e1f32c222c2247 138 main/binary-armhf/Release
 SHA256:
- 49c5bfb266c64bb58110d2497d3e57c5a1883b38e004512f2e71bf979e9e9d17 6819 main/binary-arm64/Packages
- ebad495525b303ace709b36e9bdc510b04baa2523eef2615079f23ee4bf75688 2746 main/binary-arm64/Packages.gz
+ befd7b94163035cf13cca36bc4a1745ab213247cfcebde255202d9e70ba14b7b 6850 main/binary-arm64/Packages
+ 9c947f962f37031242ba50c94f37c7c610f84c8d00973f46f6add715434b76e6 2761 main/binary-arm64/Packages.gz
  b7c61d750cc4e58de75f5364f34c0226c3cedb36997c2d4abc355f7b317c7848 138 main/binary-arm64/Release
  82a2d59c5b69c21bab1d0f85244fdc1bd5245b8c47b06b70445f142937c91199 5039 main/binary-armhf/Packages
  bf8b430c1663b16ef80cf392c8aa0585a49bae1df47d6970b0633174016d3f76 2087 main/binary-armhf/Packages.gz
  541964bed75e626eb5a376a8f741c7899f51327ecbf0d0085ecfcb986c7acf5d 138 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEGASpQwQFCcrGSLycggXWlAQrlX0FAmAsD/kACgkQggXWlAQr
-lX0Yfwv/UIUkRtQzL7FmGyaKszm3nY9nvl3h60G+9a348fb4mdQOQ7r1yGN18EFq
-M21U+PFHGlfr5YE0wdFSwu7urOQevvmUdg3SGIxbf3m7dtYDAdkP9Coh6eegJOxR
-Rn286tDPc4986VLic7Kpo9jBJrNyyGIBn1Ti+2RQFD1ShaH9oXzuWd7ask2lwAq9
-/9Of+B9rdiVPuCugRRfKh4eowA5Tzdyuz2KseU3xzMcl6Ovch09yIagxJfZbTM8b
-Lf9QArLdAfhViNzKfIDRndcFMaYRlNslsoDrU1TXNAdZ0LhdmPAkbBbMS/BOd8eh
-NWJe3DWIhFGRilyTdahGQcwoIDHDCBVg4Gm25QGxY+r8pOWRSXcfHCyGkp15qJ9l
-T8ACRtPXS8AWKsSTWL3hfrkvcsmWddCcbBT+cYgPnBUJ9sVXHWqhE9aHh2CeMHij
-bWz8RnCQxaUzR5V+9iWfcHMBH/0lsJAYYdhxOFwDfaf9+gx/9J4KEQUm3sBOmQL6
-nZKuCxT2
-=rYTv
+iQGzBAEBCgAdFiEEGASpQwQFCcrGSLycggXWlAQrlX0FAmA19PkACgkQggXWlAQr
+lX06aAwAkevGw1Uxiphpb0sPfvXEDX+DEoMKdFSmpBswyBidEwJqMzC4c7/11wFK
+b5yXh6syRnimYIX5vt0XfWbZMtJ2hnnv/wBfDSMUR1Atmox4zmw8Wg6SwCCq4bZN
+wHILpjaK2+r0+FWclM4mCtytX5HnLUeqzt8+PXMzntU4pXJFUOWl/Jiw0hQhbyed
+IIbEWpxYTChFec8oKdpKzoOiiu8pQHGQsXiyziREpreIUefWMwxrKYD/CypCdVpR
+AYzx9ajkddO50TBj127mJt5Hl1pp57S6C/4iz96l449y7fGFf+xRnAsTFgptA3er
+2vL+ctRYCkwLT8VBTiw5wusAv4fCKm/KpYGs7dvdzQEbZEB6xLr9yjatJVf/B3QJ
+x1GmhSvridDnt2l4DGWVl4eiwCks+Tqma4TL2zmtB3sX48pA++gh7VR/wv2N09dm
+kQhgLTgVSh0oYUlE9kiFVEkeEeXuuTFrZy0/VQSDsXzrn7qD5PlXPoEqGWi0mfAn
+vmZSclPR
+=dJBp
 -----END PGP SIGNATURE-----

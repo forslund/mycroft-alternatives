@@ -51,18 +51,18 @@ MD5sum: bde0fd18d781549e14a0b576d7a0bcc5
 Description: mycroft-core
 
 Package: mycroft-gui
-Version: 1.0.1.1-0ubuntu1
+Version: 1.0.2-0ubuntu1
 Architecture: arm64
 Maintainer: KDE neon <neon@kde.org>
-Installed-Size: 609
-Depends: plasma-workspace, qml-module-qtquick-particles2, qml-module-qtwebengine, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkf5dbusaddons5 (>= 4.97.0), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.10.0) | libqt5quick5-gles (>= 5.10.0), libqt5websockets5 (>= 5.6.0), libqt5webview5 (>= 5.9.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Installed-Size: 622
+Depends: plasma-workspace, qml-module-qtquick-particles2, qml-module-qtwebengine, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkf5dbusaddons5 (>= 4.97.0), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.10.0) | libqt5quick5-gles (>= 5.10.0), libqt5websockets5 (>= 5.6.0), libqt5webview5 (>= 5.9.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Priority: optional
 Section: kde
-Filename: pool/main/m/mycroft-gui/mycroft-gui_1.0.1.1-0ubuntu1_arm64.deb
-Size: 162916
-SHA256: 87f8e1fb8b7666928adb97ca3afb369ad8533671e5490b53778dd00e289da5e7
-SHA1: 0c4966cb7f20587e3ba088b23713a7e3f4bd486e
-MD5sum: a2ad84337227b182730be05a4007ab3f
+Filename: pool/main/m/mycroft-gui/mycroft-gui_1.0.2-0ubuntu1_arm64.deb
+Size: 167172
+SHA256: 6afd7fd0c81ddfd1ce302e40cbd728addff234a2ff200cd3d08f9fefe1c4ae77
+SHA1: e24ab5ce4d80ca80f1befe3757dae148e34bf85f
+MD5sum: 12733e7389a8ac66b7d899ed820452f5
 Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
  Tool to integrate Mycroft with your KDE Plasma 5 Desktop
  .
